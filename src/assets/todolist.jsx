@@ -48,7 +48,7 @@ export function TodoList() {
     return (
         <>
             <h1>Todo List</h1>
-            <div className="box">
+          
           <div className="input">  <input 
                 type="text"
                 placeholder="Enter item"
@@ -69,7 +69,7 @@ export function TodoList() {
                     
                 ))}
             </ul>
-            </div>
+           
         </>
     );
 }
